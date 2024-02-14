@@ -82,9 +82,9 @@
 
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="50dp"
-        android:background="@color/custom_orange"
+        android:background="#FFFFBB33"
         android:fontFamily="sans-serif-condensed-medium"
         android:text="Login"
         android:textColor="@color/black"
