@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="activity_mainpage" type="id"/>
+    <item name="activity_cart" type="id"/>
+    <item name="activity_components" type="id"/>
+    <item name="navigation_appointments" type="id"/>
+</resources>

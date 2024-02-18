@@ -22,21 +22,24 @@
         android:id="@+id/EnterEP"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:layout_marginBottom="10dp"
         android:fontFamily="sans-serif-smallcaps"
         android:text="Enter Your Email and Password"
         android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/Email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.266"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="297dp" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
         android:id="@+id/Email"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_marginTop="44dp"
-        android:hint="@string/email"
         android:background="@drawable/rounded_edittext"
+        android:hint="@string/email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
